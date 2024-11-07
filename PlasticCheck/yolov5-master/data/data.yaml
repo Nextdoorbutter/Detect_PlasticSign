@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['1-PET', '2-HDPE', '3-PVC', '4-LDPE', '5-PP', '6-PS', '7-Other']
+
+roboflow:
+  workspace: swu-deep-learning-project
+  project: plastic-code
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/swu-deep-learning-project/plastic-code/dataset/4`
